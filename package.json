@@ -3,12 +3,12 @@
 	"displayName": "Image Comments",
 	"icon": "icon.png",
 	"version": "0.5.0",
-	"description": "This Visual Studio Code extension lets you easily add visual comments such as sketches or diagrams directly into your source code, improving code documentation and understanding.",
+	"description": "This Visual Studio Code extension lets you easily add visual comments such as sketches or diagrams directly into your source code, improving code documentation and understanding. Support js python cpp csharp ts tsx php java.",
 	"publisher": "mgiesen",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mgiesen/Image-Comments.git"
+		"url": "https://github.com/Wugaulk/Image-Comments.git"
 	},
 	"engines": {
 		"vscode": "^1.60.0"
@@ -22,7 +22,11 @@
 		"onLanguage:javascript",
 		"onLanguage:python",
 		"onLanguage:cpp",
-		"onLanguage:csharp"
+		"onLanguage:csharp",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact",
+		"onLanguage:php",
+		"onLanguage:java"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -32,7 +36,11 @@
 					"javascript",
 					"python",
 					"cpp",
-					"csharp"
+					"csharp",
+					"typescript",
+					"typescriptreact",
+					"php",
+					"java"
 				],
 				"type": "markdown"
 			}

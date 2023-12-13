@@ -8,7 +8,11 @@ function activate(context)
 		'javascript': '\/\/',
 		'python': '#',
 		'cpp': '\/\/',
-		'csharp': '\/\/'
+		'csharp': '\/\/',
+		'typescript': '\/\/',
+		'typescriptreact': '\/\/',
+		'php': '\/\/',
+		'java': '\/\/'
 	};
 
 	context.subscriptions.push(
@@ -24,7 +28,7 @@ function activate(context)
 			provideHover(document, position, token)
 			{
 				const line = document.lineAt(position.line).text;
-				const commentPattern = new RegExp(`${commentSymbol}(.+) \\[(.+\\.\\w+)\\]$`);
+				const commentPattern = new RegExp(`${commentSymbol}(.+)\\[(.+\\.\\w+)\\]$`);
 
 				const match = line.match(commentPattern);
 				if (match && match[1] && match[2])

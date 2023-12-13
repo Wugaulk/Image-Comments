@@ -2,7 +2,7 @@
 
 ## Description
 
-The `Image Comments` Visual Studio Code extension lets you easily add visual comments such as sketches or diagrams directly into your source code, improving code documentation and understanding.
+The `Image Comments` Visual Studio Code extension lets you easily add visual comments such as sketches or diagrams directly into your source code, improving code documentation and understanding. Support js python cpp csharp ts tsx php java.
 
 ![Image](readme/image-comment.png)
 
@@ -38,7 +38,12 @@ Write your comment in the following format:
 - Append the relative image path to the comment, enclosed in square brackets.
 - Hover over the comment to view the image directly within your code editor.
 
-## Author
+## Original Author
 
 Maximilian Giesen  
 https://github.com/mgiesen
+
+## Upgrading Author
+
+DaChainrk Wugaulk
+https://github.com/Wugaulk
